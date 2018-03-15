@@ -211,7 +211,7 @@ public class WeatherActivity extends AppCompatActivity {
     }
 
     private void showWeatherInfo(Weather weather) {
-        //将数据加载到控件
+        //    将数据加载到控件
         String cityName=weather.basic.cityName;
         String updateTime=weather.basic.update.updateTime.split(" ")[1];
         String degree=weather.now.temperature +"℃";
