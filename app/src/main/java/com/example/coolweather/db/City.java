@@ -16,11 +16,11 @@ public class City extends DataSupport {
         return cityCode;
     }
 
-    public void setCityCode(int cityCode) {
+        public void setCityCode(int cityCode) {
         this.cityCode = cityCode;
     }
 
-    public String getCityName() {
+        public String getCityName() {
         return cityName;
     }
 
